@@ -28,7 +28,6 @@ export default function Layout({ children, home }) {
             </Head>
             <div className="flex gap-5 my-5">
                 <Link href='/' className="text-xl text-cyan-500">Home</Link>
-                <Link href='/posts' className="text-xl text-cyan-500">Posts</Link>
                 <Link href='/about' className="text-xl text-cyan-500">About</Link>
             </div>
             <header className={styles.header}>
